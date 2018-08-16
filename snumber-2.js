@@ -1,4 +1,5 @@
-var num = 812;
+var num = 2180;
+// 812
 var flag =0;
 
 while(flag == 0){

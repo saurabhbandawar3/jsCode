@@ -1,6 +1,6 @@
 // write a program to find if the given string is palindrome.
 
-var str = "aba"
+var str = "aabaa"
 var pstr = str.split('').reverse().join('');
 if (str == pstr ){
     console.log("Sring is Palindrome");

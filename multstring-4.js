@@ -3,8 +3,9 @@
 count the number of occurrences. Ignore case differences, white spaces 
 and special characters.*/
 
-var str = "aabbbccddddee f";
-var s = str.replace(" ", '');
+var str = "aabbbccddddee f o";
+// var s = str.replace(" ", '');
+var s = str.split(' ').join('');
 console.log(s);
 var count = {};
 for (var i in s ){
