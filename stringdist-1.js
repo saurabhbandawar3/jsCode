@@ -1,5 +1,5 @@
 var str = 'The quick brown fox jumps over the lazy';
-var start = 'lazy';``
+var start = 'lazy';
 var end = 'brown'
 var count;
 var schar = str.split(" ");
